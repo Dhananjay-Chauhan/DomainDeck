@@ -134,7 +134,7 @@ function Go() {
           <div className="row">
             <div className="col-12">
               <nav className="main-nav">
-                <Link to="/DomainDeck" className="logo">
+                <Link to="/" className="logo">
                   <img src={logo} style={myStyle} alt="" />
                 </Link>
                 <ul className="nav">

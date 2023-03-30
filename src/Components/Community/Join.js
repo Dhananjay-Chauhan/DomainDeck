@@ -61,7 +61,7 @@ const Join = ({ inputs,inputs2, title }) => {
           <div className="row">
             <div className="col-12">
               <nav className="main-nav">
-                <Link to="/DomainDeck" className="logo">
+                <Link to="/" className="logo">
                   <img src={logo} style={myStyle} alt="" />
                 </Link>
 
@@ -70,10 +70,10 @@ const Join = ({ inputs,inputs2, title }) => {
                     <a href="/DomainDeck#top">Home</a>
                   </li>
                   <li className="scroll-to-section">
-                    <a href="/#about">About</a>
+                    <a href="/DomainDeck#about">About</a>
                   </li>
                   <li className="scroll-to-section">
-                    <a href="/#services">Services</a>
+                    <a href="/DomainDeck#services">Services</a>
                   </li>
                   <li className="scroll-to-section">
                     <Link to="/contact">Contact</Link>

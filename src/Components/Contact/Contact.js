@@ -20,14 +20,14 @@ function Join() {
         <div className="col-12">
           <nav className="main-nav">
       
-          <Link to="/DomainDeck" className='logo'>
+          <Link to="/" className='logo'>
               <img src={logo} style={myStyle}  alt=""/>
               </Link>
 
             <ul className="nav">
-                <li className="scroll-to-section"><Link to="/DomainDeck" >Home</Link></li>
-              <li className="scroll-to-section"><a href="/#about">About</a></li>
-              <li className="scroll-to-section"><a href="/#services">Services</a></li>
+                <li className="scroll-to-section"><Link to="/" >Home</Link></li>
+              <li className="scroll-to-section"><a href="/DomainDeck#about">About</a></li>
+              <li className="scroll-to-section"><a href="/DomainDeck#services">Services</a></li>
               <li className="scroll-to-section"><Link to="/contact">Contact</Link></li>
               <li className="scroll-to-section"><div className="border-first-button"><Link to="/join">Join our Community</Link></div></li> 
             </ul>        
