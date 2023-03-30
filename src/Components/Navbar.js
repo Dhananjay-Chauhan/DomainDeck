@@ -16,12 +16,12 @@ function Navbar() {
         <div className="col-12">
           <nav className="main-nav">
       
-          <Link to="/" className='logo'>
+          <Link to="/DomainDeck" className='logo'>
               <img src={logo} style={myStyle}  alt=""/>
               </Link>
 
             <ul className="nav">
-              <li className="scroll-to-section"><a href="#top" className="active">Home</a></li>
+              <li className="scroll-to-section"><a href="/DomainDeck#top" className="active">Home</a></li>
               <li className="scroll-to-section"><a href="#about">About</a></li>
               <li className="scroll-to-section"><a href="#services">Services</a></li>
               <li className="scroll-to-section"><Link to="/contact">Contact</Link></li>

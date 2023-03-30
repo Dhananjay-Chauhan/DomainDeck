@@ -61,13 +61,13 @@ const Join = ({ inputs,inputs2, title }) => {
           <div className="row">
             <div className="col-12">
               <nav className="main-nav">
-                <Link to="/" className="logo">
+                <Link to="/DomainDeck" className="logo">
                   <img src={logo} style={myStyle} alt="" />
                 </Link>
 
                 <ul className="nav">
                   <li className="scroll-to-section">
-                    <a href="/#top">Home</a>
+                    <a href="/DomainDeck#top">Home</a>
                   </li>
                   <li className="scroll-to-section">
                     <a href="/#about">About</a>

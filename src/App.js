@@ -23,12 +23,12 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 function App() {
   return (
     <>
-      <BrowserRouter>
+      <BrowserRouter basename="/DomainDeck">
         <Routes>
-          <Route path="/" element={<Preheader />} />
-          <Route path="/go" element={<Go />} />
+          <Route path="/" element={<Preheader/>} />
+          {/* <Route path="/go" element={<Go />} />
           <Route path="/join" element={<Join inputs={userInputs} inputs2={userInputs2} title="Join" />} />
-          <Route path="/contact" element={<Contact />} />
+          <Route path="/contact" element={<Contact />} /> */}
         </Routes>
       </BrowserRouter>
     </>

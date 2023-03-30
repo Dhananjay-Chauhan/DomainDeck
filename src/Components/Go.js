@@ -134,12 +134,12 @@ function Go() {
           <div className="row">
             <div className="col-12">
               <nav className="main-nav">
-                <Link to="/" className="logo">
+                <Link to="/DomainDeck" className="logo">
                   <img src={logo} style={myStyle} alt="" />
                 </Link>
                 <ul className="nav">
                   <li className="scroll-to-section">
-                    <a href="/">Home</a>
+                    <a href="/DomainDeck">Home</a>
                   </li>
                   <li className="scroll-to-section">
                     <a href="/#about">About</a>
